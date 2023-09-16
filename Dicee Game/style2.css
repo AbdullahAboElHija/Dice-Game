@@ -1,0 +1,52 @@
+body{
+    background-color: #393E46 ;
+
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    color:chartreuse;
+
+}
+
+.players{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.player1 ,.player2{
+    color: antiquewhite;
+    font-size: 2rem;
+}
+
+.dice1,.dice2{
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+.footer{
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 3%;
+    font-size: 2rem;
+    color: darkred;
+}
+
+.winner{
+    font-size: 2rem;
+    color:lime;
+}
+
+
+.dbtn{
+    font-size: 4rem;
+    font-family: 'Indie Flower', cursive;
+    margin-top: 5%;
+  }

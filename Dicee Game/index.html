@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Welcome</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Enter Player Names :</h1>
+      <form action="process_names.php" method="POST">
+        <label for="name1">Name 1:</label>
+        <input type="text" id="name1" name="name1" required /><br /><br />
+
+        <label for="name2">Name 2:</label>
+        <input type="text" id="name2" name="name2" required /><br /><br />
+
+        <button class = "sbtn">start the game</button>
+      </form>
+    </div>
+
+    <script type="module" src="indexscript.js"></script>
+  </body>
+</html>
